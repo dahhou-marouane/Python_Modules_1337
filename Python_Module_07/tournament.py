@@ -1,7 +1,7 @@
 from typing import List, Tuple
 from ex0 import FlameFactory, AquaFactory
 from ex0.factory import CreatureFactory
-from ex1.capabilities import HealingCreatureFactory, TransformCreatureFactory
+from ex1 import HealingCreatureFactory, TransformCreatureFactory
 from ex2 import (
     BattleStrategy,
     NormalStrategy,
