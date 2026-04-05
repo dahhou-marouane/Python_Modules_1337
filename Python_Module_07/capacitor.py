@@ -26,7 +26,7 @@ def transform_test(factory: CreatureFactory) -> None:
     print("Testing Creature with transform capability")
     print(" base:")
     base: Creature = factory.create_base()
-    base_tansform: TransformCapability =cast(TransformCapability, base)
+    base_tansform: TransformCapability = cast(TransformCapability, base)
     print(base.describe())
     print(base.attack())
     print(base_tansform.transform())

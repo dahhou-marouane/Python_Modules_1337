@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from ex0.creature import Creature
 from ex0.factory import CreatureFactory
-from typing import Union
 
 
 class HealCapability(ABC):
@@ -44,7 +43,7 @@ class HealingCreatureFactory(CreatureFactory):
         return Bloomelle()
 
 
-class TransformCapability (ABC):
+class TransformCapability(ABC):
 
     def __init__(self):
         self.is_transforme = False
